@@ -1,0 +1,11 @@
+server:
+  port: ${application.port}
+
+logging:
+  config: ${logger.config}
+
+spring:
+  application:
+    name: ${application.name}
+  profiles:
+    active: ${application.profile}

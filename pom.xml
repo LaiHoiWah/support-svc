@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <name>support-svc-parent</name>
+    <groupId>com.meowu.support.svc</groupId>
+    <artifactId>parent</artifactId>
+    <version>0.0.1</version>
+    <packaging>pom</packaging>
+
+    <parent>
+        <groupId>com.meowu.commons</groupId>
+        <artifactId>dependencies</artifactId>
+        <version>0.0.1</version>
+    </parent>
+
+    <properties>
+        <project.name>support-svc-parent</project.name>
+        <project.jdk.version>11</project.jdk.version>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <modules>
+        <module>client</module>
+        <module>service</module>
+    </modules>
+</project>
